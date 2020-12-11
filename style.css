@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
 
+
 body{
     margin: 0;
     padding: 0;
     font-family: 'Hind', sans-serif;  
     color: #333333;
-    height: 200vh;
+    height: 300vh;
     
     
 }
@@ -19,7 +20,7 @@ body{
 
 
 .container{
-    max-width: 1200px;
+    max-width: 1100px;
     margin: auto;
     overflow: hidden;
     padding:  0 3rem;
@@ -160,7 +161,7 @@ button:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     padding-bottom: 4rem;
 }
 
@@ -176,15 +177,90 @@ text-transform: uppercase;
     color: #ffffff;
 }
 
-.btn-container{
-    align-self: start;
-    padding-left: 4.5rem;
-
-}  
 
 .main-image{
 display: flex;
-justify-content: center;
+justify-content: flex-end;
 align-items: center;
 padding-bottom: 4rem;
+
 }
+
+
+
+/* first section styling */
+
+.first-section{
+    height: 100vh;
+    width: 100%;
+}
+
+/* cards */
+
+.cards-container{
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    align-items: center;
+
+}
+
+.cards-container h2{
+    text-transform: uppercase;
+    color: #4C4D4E;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.cards-container p{
+    font-size: 14px;
+    color: #777777;
+    letter-spacing: 1px;
+}
+
+.cards{
+    text-align: center;
+}
+
+/* image and text */
+
+.first-section-sub-section{
+height: 60vh;
+display: grid;
+grid-template-columns: 3fr 2fr;
+}
+
+.first-section-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.bigger-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F7F7F7;
+
+}
+
+.bigger-card-container h2{
+    text-transform: uppercase;
+    color: #4C4D4E;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.bigger-card-container p{
+    font-size: 14px;
+    color: #777777;
+    letter-spacing: 1px;
+}
+
+.bigger-card{
+    width: 300px;
+    text-align: center;
+
+}
+
