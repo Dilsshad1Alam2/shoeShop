@@ -40,6 +40,12 @@ button{
     box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
     font-weight:400;
     font-size: 14px;
+    cursor: pointer; 
+}
+
+button:hover{
+    filter: brightness(90%);
+
 }
 
 .grid{
@@ -106,9 +112,9 @@ button{
 .logo-sub-title{
     font-size: 12px;
     text-transform: uppercase;
-    opacity: 75%;
     letter-spacing: 1.5px;
-    margin: 0;
+    margin:0.5rem 0;
+    color: #5B7A9A;
 }
 
 .nav{
@@ -131,6 +137,7 @@ button{
     width: 100px;
     text-align: center;
     letter-spacing: 1.2px;
+    opacity: 0.95;
 }
 
 .shop-bold{
