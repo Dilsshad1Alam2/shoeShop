@@ -5,17 +5,41 @@ body{
     padding: 0;
     font-family: 'Hind', sans-serif;  
     color: #333333;
+    height: 200vh;
+    
     
 }
 
 .landing-page{
     background: #74D2E7;
+    height: 100vh;
+
+
 }
 
 
 .container{
     max-width: 1200px;
     margin: auto;
+    overflow: hidden;
+    padding:  0 3rem;
+
+
+}
+
+button{
+    font-family: 'Hind', sans-serif;  
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0.5rem 1rem;
+    color: white;
+    background:#EC1C24;
+    border-radius: 7px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
+    font-weight:400;
+    font-size: 14px;
 }
 
 .grid{
@@ -28,6 +52,10 @@ body{
     "logo-nav logo-nav"
     "main-text main-image"
     ;
+}
+
+.grid-landing-page{
+    height: 90vh;
 }
 
 .logo-nav{
@@ -89,6 +117,8 @@ body{
     justify-content: center;
     padding-top: 1rem;
     text-transform: uppercase;
+    position: sticky;
+    font-size: 14px;
 }
 
 .nav a{
@@ -100,10 +130,15 @@ body{
     font-weight: 300;
     width: 100px;
     text-align: center;
+    letter-spacing: 1.2px;
+}
+
+.shop-bold{
+    font-weight:600 !important;
 }
 
 .active-one{
-    color:red !important;
+    color:#FF1515 !important;
     font-weight: 600 !important;
 }
 
@@ -112,3 +147,37 @@ body{
     font-weight: 600;
 }
 
+
+/* main-text */
+.main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+
+.main-text-content{
+font-size: 40px;
+line-height: 48px;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+.main-text-content-white{
+    color: #ffffff;
+}
+
+.btn-container{
+    align-self: start;
+    padding-left: 4.5rem;
+
+}  
+
+.main-image{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 4rem;
+}
