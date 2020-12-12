@@ -348,7 +348,7 @@ clip-path: circle();
 /* forth section styling */
 
 .forth-section{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     padding: 3rem 0;
 }
@@ -362,7 +362,8 @@ clip-path: circle();
 }
 
 .map{
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     padding: 0;
 }
+
