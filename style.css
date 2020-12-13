@@ -13,10 +13,14 @@ body{
     letter-spacing: 1px;  
 }
 
+
+.to-hide{
+display: none;
+}
+
 .landing-page{
     background: #74D2E7;
     height: 100vh;
-
 
 }
 
@@ -53,6 +57,7 @@ bottom: 20px;
 right: 20px;
 font-size: 3rem;
 color:#EC1C24;
+opacity: 90%;
 }
 
 
@@ -74,7 +79,8 @@ button:hover{
 }
 
 .grid-landing-page{
-    height: 90vh;
+    height: 100vh;
+    width: 100%;
 }
 
 .logo-nav{
@@ -89,6 +95,11 @@ button:hover{
     grid-area: main-image;
 }
 
+.main-image-content{
+    width:553px ;
+    height:369.5px ;
+}
+
 
 /* logo-design */
 
@@ -98,7 +109,6 @@ button:hover{
     align-items: center;
     justify-content: center;
     user-select: none;
-
 }
 
 
@@ -130,17 +140,18 @@ button:hover{
     color: #5B7A9A;
 }
 
-.nav{
+nav{
     display: flex;
-    width: 1200px;
+    max-width: 1200px;
     justify-content: center;
     padding-top: 1rem;
     text-transform: uppercase;
-    position: sticky;
     font-size: 14px;
+    position: sticky;
+    top: 0.25rem;
 }
 
-.nav a{
+nav a{
 
     margin: 0 2rem 0 2rem;
     padding: 0.5rem;
@@ -162,7 +173,7 @@ button:hover{
     font-weight: 600 !important;
 }
 
-.nav a:hover{
+nav a:hover{
     color:#FF1515 ;
     font-weight: 600;
 }
@@ -173,7 +184,6 @@ button:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     padding-bottom: 4rem;
 }
 
@@ -203,7 +213,7 @@ padding-bottom: 4rem;
 
 .first-section{
     height: 100vh;
-    width: 100%;
+
 }
 
 /* cards */
@@ -295,6 +305,7 @@ grid-template-columns: 3fr 2fr;
 }
 
 .parent-container{
+    height: 100%;
     display: grid;
     grid-template-columns: 4fr 5fr 4fr;
     align-items: center;
@@ -326,7 +337,6 @@ grid-template-columns: 3fr 2fr;
 /* third section styling */
 .third-section{
     height: 100%;
-    width: 100%;
     text-align: center;
     padding: 3rem 0;
 }
@@ -451,3 +461,8 @@ clip-path: circle();
     text-align: center;
     color:#777777;
 }
+
+
+
+
+

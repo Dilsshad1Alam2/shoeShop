@@ -3,48 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
     <title>Shoe shop</title>
 </head>
 <body>
 
 <!-- Landing page -->
 <section class="landing-page" id="home">
-  <div class="container grid grid-landing-page">
-      <!-- logo and navigation -->
-    <div class="logo-nav">
-        <div class="logo">
-            <p class="logo-title"><span class="for-s">S</span>hoes</p>
-            <p class="logo-sub-title">online store</p>
-        </div>
-
-        <div class="nav ">
-
-            <a href="#" class="active-one">Home</a>
-            <a href="#about-us">About us</a>
-            <a href="#contact-us">Contact us </a>
-            <a href="#location">Location</a>
-            <a href="#" class="shop-bold">shop</a>
+    <div class="container">
+        <div class="grid grid-landing-page">
+            <!-- logo and navigation -->
+            
+          <div class="logo-nav">
+              <div class="for-responsive-flex">
+                  <div class="logo">
+                      <p class="logo-title"><span class="for-s">S</span>hoes</p>
+                      <p class="logo-sub-title">online store</p>
+                  </div>
+          
+                  <div class="burger-menu to-hide">
+                      <i class="fas fa-bars"></i>   
+                  </div>
+              </div>
+      
+      <nav>
+          <a href="" class="active-one">Home</a>
+          <a href="#about-us">About us</a>
+          <a href="#contact-us">Contact us </a>
+          <a href="#location">Location</a>
+          <a href="#" class="shop-bold">shop</a>
+      </nav>
+          </div>
+      
+          <!-- main-text -->
+          <div class="main-text">
+              <p class="main-text-content">branded shoes at <span class="main-text-content-white"><br>affordable price</span></p>
+              <div class="btn-container">
+                  <button class="main-text-button">Shop now</button>
+      
+              </div>
+      
+          </div>
+      
+          <!-- main-image -->
+          <div class="main-image">
+              <img class="main-image-content" src="images/main-shoe.svg">
+          </div>
+      
         </div>
     </div>
 
-    <!-- main-text -->
-    <div class="main-text">
-        <p class="main-text-content">branded shoes at <span class="main-text-content-white"><br>affordable price</span></p>
-        <div class="btn-container">
-            <button class="main-text-button">Shop now</button>
-
-        </div>
-
-    </div>
-
-    <!-- main-image -->
-    <div class="main-image">
-        <img src="images/main-shoe.svg" width="553px" height="369.5px">
-    </div>
-
-  </div>
 </section>
 
 
