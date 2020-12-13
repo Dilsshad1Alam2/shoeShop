@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
 
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     margin: 0;
     padding: 0;
@@ -41,6 +45,16 @@ button{
     font-size: 14px;
     cursor: pointer; 
 }
+
+.sticky-go-top{
+display: none;
+position: fixed;
+bottom: 20px;
+right: 20px;
+font-size: 3rem;
+color:#EC1C24;
+}
+
 
 button:hover{
     filter: brightness(90%);
@@ -350,7 +364,7 @@ clip-path: circle();
 .forth-section{
     height: 100%;
     width: 100%;
-    padding: 3rem 0;
+    padding: 3rem 0 0 0;
 }
 
 .forth-section h2{
@@ -367,3 +381,73 @@ clip-path: circle();
     padding: 0;
 }
 
+
+/* fifth section styling */
+
+.fifth-section{
+    height: 100%;
+    width: 100%;
+    background: #333333;
+    color: #ffffff;
+}
+
+.for-contact-us{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 3rem 0 1rem 0; 
+}
+
+.fifth-section .form-container{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fifth-section form{
+    background:#ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    border: 1px solid #777777;
+    border-radius: 10px;
+}
+
+.fifth-section form div{
+    padding: 10px;
+}
+
+.fifth-section form input{
+    color:#333333;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    height: 2rem;
+    width: 15rem;   
+    outline: none;
+    border-bottom: 1px solid #777777;
+    border-width: 0 0 2px;
+}
+
+.fifth-section form input:focus{
+    border-bottom: 1px solid #f38989;
+}
+
+.fifth-section form textarea{
+    width: 15rem;
+    height: 10rem;
+    outline: none;
+    border-width: 0 0 2px;
+    
+
+
+}
+
+::placeholder{
+    text-align: center;
+    color:#777777;
+}
