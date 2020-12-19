@@ -13,10 +13,10 @@ body{
     letter-spacing: 1px;  
 }
 
-
-.to-hide{
-display: none;
+.fa-bars{
+    font-size: 2rem;
 }
+
 
 .landing-page{
     background: #74D2E7;
@@ -85,6 +85,7 @@ button:hover{
 
 .logo-nav{
     grid-area: logo-nav;
+    position: relative;
 }
 
 .main-text{
@@ -147,7 +148,6 @@ nav{
     padding-top: 1rem;
     text-transform: uppercase;
     font-size: 14px;
-    position: sticky;
     top: 0.25rem;
 }
 
@@ -162,6 +162,11 @@ nav a{
     text-align: center;
     letter-spacing: 1.2px;
     opacity: 0.95;
+}
+
+
+.burger-menu{
+    cursor: pointer;
 }
 
 .shop-bold{
@@ -462,7 +467,10 @@ clip-path: circle();
     color:#777777;
 }
 
-
+.to-hide{
+    display: none;
+    }
+    
 
 
 

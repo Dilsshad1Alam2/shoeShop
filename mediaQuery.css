@@ -48,9 +48,23 @@
     height: 221.7px;
   }
 
-  nav {
-    display: none;
+  nav{
+    position: relative;
+    max-width: 100%;
+    background: #333333;
   }
+
+  .nav-wrapper{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+
+  }
+  
+  nav a{
+    color: #ffffff;
+  }
+
 
   .for-responsive-flex {
     width: 100%;
@@ -118,5 +132,11 @@
   .fifth-section .form-container{
       margin: 0rem 1rem;
   }
+
+  .to-hide-phone{
+    display: none;
+    }
+    
+
 
 }

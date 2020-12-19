@@ -1,6 +1,6 @@
 const buttoonGoTop = document.querySelector('.sticky-go-top');
-
-
+const burgerMenu = document.querySelector('.fa-bars');
+const toHideInPhone = document.querySelector('.to-grab')
 
 
 function scrollFunction() {
@@ -15,4 +15,10 @@ function scrollFunction() {
         scrollFunction()
     };
 
+function toDisplayMenu(){
+  toHideInPhone.classList.toggle('to-hide-phone');
+}
 
+
+
+burgerMenu.addEventListener('click', toDisplayMenu)
