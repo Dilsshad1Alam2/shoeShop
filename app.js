@@ -1,4 +1,4 @@
-const buttoonGoTop = document.querySelector('.sticky-go-top');
+const buttoonGoTop = document.querySelector('#up-arrow');
 const burgerMenu = document.querySelector('.fa-bars');
 const toHideInPhone = document.querySelector('.to-grab')
 

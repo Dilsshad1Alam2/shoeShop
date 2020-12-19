@@ -50,7 +50,7 @@ button{
     cursor: pointer; 
 }
 
-.sticky-go-top{
+#up-arrow{
 display: none;
 position: fixed;
 bottom: 20px;
